@@ -8,10 +8,12 @@ buildscript {
     }
     dependencies {
         classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.71"
     }
 }
 
 apply plugin: "net.minecraftforge.gradle.forge"
+apply plugin: "kotlin"
 
 version = modVersion
 group = modGroup
@@ -32,9 +34,15 @@ minecraft {
 
 repositories {
     mavenCentral()
+    jcenter()
+    maven {
+        url "http://maven.shadowfacts.net/"
+    }
 }
 
 dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71"
+    compile group: "net.shadowfacts", name: "Forgelin", version: "1.6.0"
 }
 
 processResources {

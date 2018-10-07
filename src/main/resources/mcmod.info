@@ -2,19 +2,15 @@
   {
     "modid": "shortcut-recipes",
     "name": "ShortcutRecipes",
-    "description": "",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "",
-    "updateUrl": "",
+    "url": "https://github.com/proudust/shortcut-recipes",
     "authorList": [
-      ""
+      "proudust"
     ],
-    "credits": "",
-    "logoFile": "",
-    "screenshots": [],
+    "credits": "proudust",
     "dependencies": [
-      ""
+      "forgelin"
     ]
   }
 ]
