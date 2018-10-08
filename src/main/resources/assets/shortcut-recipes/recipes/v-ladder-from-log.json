@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "shortcut-recipes",
+    "pattern": [
+        "# #",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "type": "forge:ore_dict",
+            "ore": "logWood"
+        }
+    },
+    "result": {
+        "item": "minecraft:ladder",
+        "count": 24
+    }
+}
