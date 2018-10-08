@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shortcut-recipes",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:log",
+      "data": 2
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_door",
+    "count": 12
+  }
+}
