@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "shortcut-recipes",
+  "ingredients": [
+    {
+      "item": "minecraft:reeds"
+    },
+    {
+      "item": "minecraft:reeds"
+    },
+    {
+      "item": "minecraft:reeds"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book",
+    "count": 1
+  }
+}
