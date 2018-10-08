@@ -5,6 +5,7 @@ gradle-build:
   image: java:8-jdk
   stage: build
   script:
+    - chmod +x ./gradlew
     - ./gradlew build
   artifacts:
     paths:
